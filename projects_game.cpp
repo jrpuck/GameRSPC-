@@ -45,7 +45,7 @@ short int DetermineWinner(int playerChoice, int computerChoice){
     int result;
     if(playerChoice == computerChoice){
         result = 0;
-    }else if((playerChoice == Rock && computerChoice == Scissors) || 
+    }else if((playerChoice == choice::Rock && computerChoice == Scissors) || 
              (playerChoice == Paper && computerChoice == Rock) || 
              (playerChoice == Scissors && computerChoice == Paper)){
         result = 1;
